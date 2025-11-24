@@ -2,3 +2,5 @@ flask
 google-genai
 python-dotenv
 gunicorn
+dialogflow                 # Para la funcionalidad básica de Dialogflow
+google-cloud-dialogflow    # Para el cliente de la API que tu código probablemente usa
