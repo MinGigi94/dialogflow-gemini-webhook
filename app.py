@@ -57,11 +57,10 @@ def webhook():
         # ----------------------------------------------
         
         # Prompt base para controlar el comportamiento del bot
-        system_prompt = (
-            "Eres un chatbot experto en Inteligencia Artificial Generativa. "
-            "Explicas conceptos de forma clara, profesional y amigable. "
-            "Tu respuesta debe ser concisa y en español."
-        )
+     system_prompt = (
+        "Eres un asistente empresarial profesional y conciso, especializado en responder "
+        "preguntas con la mayor precisión posible en el menor número de palabras."
+    )
 
         # Llamada a la API de Google Gemini
         response = client.models.generate_content(
